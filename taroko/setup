@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ln -s "$(pwd)/create-taroko-react-project" /usr/local/bin/create-taroko-react-project

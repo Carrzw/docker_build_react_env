@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -ti -d --name=$1  -v $2:/var/tunnel2host -p $3:8080 -p $4:8081 -p $5:6060 nodejs_v8.9:latest

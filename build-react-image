@@ -1,3 +1,2 @@
 #!/bin/bash
-
 docker build -f ./reactDockerfile -t react_environment:latest .
